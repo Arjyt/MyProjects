@@ -15,6 +15,7 @@ function ThankYou() {
                         <h3 className="mb-4">your tour is booked.</h3>
 
                         <Button className='btn primary__btn w-25'><Link to='/home'>Back to Home</Link></Button>
+                        <Button className='btn primary__btn w-25'><Link to='/recipt'>Download recipt</Link></Button>
                     </div>
                 </Col>
             </Row>

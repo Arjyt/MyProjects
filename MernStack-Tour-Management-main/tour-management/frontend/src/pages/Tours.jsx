@@ -5,6 +5,7 @@ import '../styles/tour.css'
 import TourCard from '../shared/TourCard'
 import SearchBar from '../shared/SerchBar'
 import tourData from '../assets/data/tours'
+import NewsLetter from '../shared/NewsLetter'
 
 function Tours() {
   const [pageCont,setPageCont]=useState(0)
@@ -50,6 +51,7 @@ function Tours() {
         </Row>
       </Container>
     </section>
+    <NewsLetter/>
     
     </>
   )

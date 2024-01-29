@@ -14,6 +14,7 @@ import FeaturedTourList from '../components/featured tours/FeaturedTourList'
 import experienceImg from '../assets/images/experience.png'
 import MasonryImagesGallery from '../components/image gallery/MasonryImagesGallery'
 import Testimonials from '../components/testimonial/Testimonials'
+import NewsLetter from '../shared/NewsLetter'
 
 
 function home() {
@@ -136,6 +137,7 @@ function home() {
         </Row>
       </Container>
     </section>
+    <NewsLetter/>
     </>
   )
 }
